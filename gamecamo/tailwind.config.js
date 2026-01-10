@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -6,6 +5,7 @@ export default {
       fontFamily: {
         sans: ['Poppins', 'system-ui', 'Avenir', 'Helvetica', 'Arial', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
+        eurostile: ['Eurostile', 'sans-serif'],
       },
     },
   },
