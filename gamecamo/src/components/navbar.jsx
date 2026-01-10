@@ -10,7 +10,7 @@ export const Navbar = () => {
             <li>Portfolio</li>
             <li>News</li>
           </ul>
-          <button className="bg-primary w-33 h-10.5 text-white rounded-md">Contact us</button>
+          <button className="bg-primary w-33 h-10.5 text-white rounded-md cursor-pointer">Contact us</button>
         </nav>
       </div>
     </div>

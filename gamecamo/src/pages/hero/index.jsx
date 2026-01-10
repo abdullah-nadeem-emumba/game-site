@@ -4,7 +4,7 @@ import { joystick } from '../../assets';
 
 export const HeroSection = () => {
   return (
-    <div className="flex w-full gap-20.5 pr-22.75 pb-10 bg-[url(bg-vector-1.png)] bg-no-repeat bg-cover">
+    <div className="flex w-full gap-20.5 pr-10 pb-10 bg-[url(bg-vector-1.png)] bg-no-repeat bg-cover">
       <Sidebar />
       <div className="w-full">
         <Navbar />
@@ -15,14 +15,14 @@ export const HeroSection = () => {
             <p className="font-medium text-white">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
             </p>
-            <button className="bg-primary mt-16 text-white rounded-full px-4 h-13 w-48.75 font-medium">Get more details</button>
+            <button className="bg-primary mt-16 text-white rounded-full px-4 h-13 w-48.75 font-medium cursor-pointer">Get more details</button>
           </div>
           <div className="img-container">
             <img src={joystick} className="-ml-20" />
           </div>
         </main>
-        <div>
-          <h1 className="font-eurostile font-bold text-[250px] tracking-[.3em] bg-linear-to-b from-[#838383] to-[#000000] bg-clip-text text-transparent">
+        <div className="flex justify-center">
+          <h1 className="w-fit font-eurostile font-bold text-[250px] tracking-[.25em] bg-linear-to-b from-[#838383] to-[#000000] bg-clip-text text-transparent">
             camos
           </h1>
         </div>
