@@ -1,4 +1,4 @@
-import { HeroSection, Trending, Services } from './pages';
+import { HeroSection, Trending, Services, Portfolio } from './pages';
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <HeroSection />
       <Trending />
       <Services />
+      <Portfolio />
     </div>
   );
 }
