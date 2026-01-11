@@ -35,15 +35,15 @@ export const Trending = () => {
       <div className="flex justify-between max-w-7xl gap-29">
         <img src={ghost} alt="ghost" className="rounded-md w-124 h-122.25" />
         <div className="space-y-10.75">
-          <h2 className="text-[30px] font-medium max-w-118">Lorem Ipsum is simply dummy text dummy text </h2>
+          <h2 className="text-[30px] font-medium max-w-118">Discover What's Hot in Gaming Right Now</h2>
           <p className="text-[17px]">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quod eum, eius repudiandae nobis fugit dolores soluta sunt vero
-            aliquam aut culpa ipsa ullam a voluptas delectus aspernatur earum perferendis est obcaecati veniam dolorum consequuntur! Possimus aperiam
-            accusantium illo nobis, facilis adipisci necessitatibus nam placeat at vel aliquid perferendis
+            Stay ahead of the curve with our trending games section. We track the most popular and talked-about games across all platforms, bringing
+            you real-time insights into what the gaming community is playing. From indie gems to AAA blockbusters, discover titles that are capturing
+            players' attention worldwide.
           </p>
           <p className="text-[17px]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam est iste nulla dolor vel modi a distinctio nobis nam amet soluta
-            blanditiis ab, minima exercitationem itaque incidunt doloribus. Odit, ex?
+            Our trending algorithm considers player engagement, social media buzz, and community ratings to ensure you never miss out on the next big
+            gaming phenomenon. Join thousands of gamers and explore the titles everyone's talking about.
           </p>
           <button className="bg-primary px-10 py-3 cursor-pointer text-white">Read more</button>
         </div>

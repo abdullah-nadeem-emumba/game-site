@@ -15,5 +15,24 @@ import trending2 from './images/trending-2.png';
 import trending3 from './images/trending-3.png';
 import trending4 from './images/trending-4.png';
 import ghost from './images/ghost.png';
+import videoThumbnail from './images/video-thumbnail.png';
 
-export { joystick, cloud, film, home, man, market, steam, settings, podcast, joystickSmall, fire, trending1, trending2, trending3, trending4, ghost };
+export {
+  joystick,
+  cloud,
+  film,
+  home,
+  man,
+  market,
+  steam,
+  settings,
+  podcast,
+  joystickSmall,
+  fire,
+  trending1,
+  trending2,
+  trending3,
+  trending4,
+  ghost,
+  videoThumbnail,
+};

@@ -10,15 +10,16 @@ export const HeroSection = () => {
         <Navbar />
         <main className="flex justify-between items-center pt-22">
           <div className="space-y-4.25 max-w-131.75">
-            <p className="text-primary font-bold text-xl">Created by Abdullah Nadeem</p>
-            <h2 className="text-[50px] font-bold text-white">Work that we produce for our clients</h2>
+            <p className="text-primary font-bold text-xl">Premium Gaming Services</p>
+            <h2 className="text-[50px] font-bold text-white">Elite game customization and enhancements</h2>
             <p className="font-medium text-white">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+              Experience top-tier gaming modifications and enhancements tailored to your playstyle. Our expert team delivers professional-grade
+              customizations for competitive and casual gamers alike.
             </p>
             <button className="bg-primary mt-16 text-white rounded-full px-4 h-13 w-48.75 font-medium cursor-pointer">Get more details</button>
           </div>
           <div className="img-container">
-            <img src={joystick} className="-ml-20" />
+            <img src={joystick} alt="Gaming controller" className="-ml-20" />
           </div>
         </main>
         <div className="flex justify-center">
