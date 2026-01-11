@@ -21,13 +21,13 @@ export const Navbar = () => {
   }, [isMenuOpen]);
 
   return (
-    <div className="flex justify-between text-white pt-9.25 pr-[62.3px] w-full relative">
+    <div className="flex justify-between items-center text-white pt-9.25 pr-4 md:pr-[62.3px] w-full relative">
       <h1 className="text-[29px] font-extrabold">{'Gamecamo{}'}</h1>
 
       {/* Desktop Navigation */}
       <div className="hidden md:block">
-        <nav className="flex gap-22 items-center">
-          <ul className="flex gap-22 items-center">
+        <nav className="flex gap-4 md:gap-8 lg:gap-22 items-center">
+          <ul className="flex gap-4 md:gap-8 lg:gap-22 items-center">
             {navItems.map((item, index) => (
               <li key={index} className="cursor-pointer hover:text-primary transition-colors">
                 {item}

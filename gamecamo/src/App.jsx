@@ -5,7 +5,7 @@ function App() {
     <div className="max-w-480 mx-auto">
       <HeroSection />
       <Trending />
-      <Services />
+      {/* <Services /> */}
     </div>
   );
 }
