@@ -9,7 +9,14 @@ export const Trending = () => {
   ];
 
   return (
-    <section className="flex flex-col items-center w-full px-4 md:px-6 lg:px-8 pt-12 md:pt-20 lg:pt-25 pb-12">
+    <section id="trending" className="flex flex-col items-center w-full px-4 md:px-6 lg:px-8 pt-12 md:pt-20 lg:pt-25 pb-12">
+      {/* Navigation */}
+      <nav className="flex items-center justify-center gap-2 mb-8 md:mb-12">
+        <span className="text-gray-400 text-sm md:text-base">Home</span>
+        <span className="text-gray-600">&gt;</span>
+        <span className="text-orange-500 text-sm md:text-base">Trending</span>
+      </nav>
+
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center w-full max-w-7xl mb-8 md:mb-12 gap-4 sm:gap-0">
         <h2 className="text-white text-2xl md:text-3xl lg:text-[32px] font-bold">Currently Trending Games</h2>
         <button className="px-4 md:px-5 py-2 uppercase bg-primary text-white text-base md:text-lg lg:text-xl font-medium rounded-md cursor-pointer whitespace-nowrap">

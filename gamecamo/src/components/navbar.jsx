@@ -6,7 +6,18 @@ export const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
 
-  const navItems = ['Home', 'About Us', 'Portfolio', 'News'];
+  const navItems = ['Trending', 'Services', 'Portfolio', 'About Us'];
+
+  const scrollToSection = (item) => {
+    const sectionId = item.toLowerCase().replace(' ', '-');
+    const element = document.getElementById(sectionId);
+
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    closeMenu();
+  };
 
   useEffect(() => {
     if (isMenuOpen) {
@@ -29,7 +40,7 @@ export const Navbar = () => {
         <nav className="flex gap-4 md:gap-8 lg:gap-22 items-center">
           <ul className="flex gap-4 md:gap-8 lg:gap-22 items-center">
             {navItems.map((item, index) => (
-              <li key={index} className="cursor-pointer hover:text-primary transition-colors">
+              <li key={index} className="cursor-pointer hover:text-primary transition-colors" onClick={() => scrollToSection(item)}>
                 {item}
               </li>
             ))}
@@ -60,7 +71,7 @@ export const Navbar = () => {
         <nav className="flex flex-col items-center gap-8">
           <ul className="flex flex-col items-center gap-8 text-2xl">
             {navItems.map((item, index) => (
-              <li key={index} className="cursor-pointer hover:text-primary transition-colors" onClick={closeMenu}>
+              <li key={index} className="cursor-pointer hover:text-primary transition-colors" onClick={() => scrollToSection(item)}>
                 {item}
               </li>
             ))}

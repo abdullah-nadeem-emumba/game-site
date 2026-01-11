@@ -23,7 +23,7 @@ export const HeroSection = () => {
             </button>
           </div>
           <div className="img-container shrink-0 max-w-full">
-            <img src={joystick} alt="Gaming controller" className="ml-0 md:ml-0 xl:-ml-20 w-64 md:w-72 lg:w-80 xl:w-auto max-w-full" />
+            <img src={joystick} alt="Gaming controller" className="ml-0 md:ml-0 xl:-ml-20 w-64 md:w-72 lg:w-80 xl:w-180 max-w-full" />
           </div>
         </main>
         <div className="flex justify-center mt-8 md:mt-0">
